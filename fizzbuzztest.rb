@@ -39,4 +39,9 @@ class Tdd_fizzbuzz_test < Minitest::Test
 		array = fizzbuzz()
 		assert_equal("fizzbuzz",array[14])
 	end
+
+	def test_30_replaced_by_fizzbuzz
+		array = fizzbuzz()
+		assert_equal("fizzbuzz",array[29])
+	end
 end
