@@ -44,4 +44,9 @@ class Tdd_fizzbuzz_test < Minitest::Test
 		array = fizzbuzz()
 		assert_equal("fizzbuzz",array[29])
 	end
+
+	def test_divisible_3_return_fizz
+		array = fizzbuzz()
+		assert_equal("fizz",array[2])
+	end
 end
