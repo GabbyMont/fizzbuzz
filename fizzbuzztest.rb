@@ -13,4 +13,9 @@ class Tdd_fizzbuzz_test < Minitest::Test
 		num2 = 1
 		assert_equal(num1,num2) #can be called or put into the assertion
 	end
+
+	def test_array
+		new_array = array_1_to_100()
+		assert_equal(Array,new_array.class) # 'Array' is a class like Integer is for number. '.class' shows that the 
+	end
 end
