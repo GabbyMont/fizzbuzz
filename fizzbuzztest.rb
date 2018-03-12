@@ -59,4 +59,9 @@ class Tdd_fizzbuzz_test < Minitest::Test
 		array = fizzbuzz()
 		assert_equal("buzz",array[4])
 	end
+
+	def test_10_divisible_5_return_buzz
+		array = fizzbuzz() #sets the variable 'array' equal to 'fizzbuzz' function call
+		assert_equal("buzz",array[9]) # asserts thats the two items are eqaul to eachother. 'Buzz' would then be equal to the 'array' function
+	end
 end
