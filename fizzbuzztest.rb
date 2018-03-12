@@ -30,4 +30,8 @@ class Tdd_fizzbuzz_test < Minitest::Test
 	def test_5_is_5
 		assert_equal(5,array_1_to_100[4])
 	end
+
+	def test_100_is_100
+		assert_equal(100,array_1_to_100[99])
+	end
 end
