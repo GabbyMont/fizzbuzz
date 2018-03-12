@@ -18,6 +18,6 @@ def fizzbuzz()
 		newarray[y] = "buzz" # ...with buzz
 	end
 	end # need this 'end' to end above function
-	puts newarray #this prints the array out to see all positions that were replaced
+	#puts newarray #this prints the array out to see all positions that were replaced
 	return newarray # returns the variable
 end #ends the entire function
